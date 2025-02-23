@@ -9,3 +9,106 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: #121621;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navColor{
+    background-color: #1B2131;
+}
+
+.navbar{
+    max-width: 1200px;
+    font-size: 1.1em;
+}
+
+.navCont{
+    max-width: 500px;
+}
+
+.linkers{
+    gap: 50px;
+}
+
+.btn{
+    background-color: #d4a959;
+    border-color: #d4a959;
+}
+
+.btn:hover{
+    background-color: #FAC76A;
+    border-color: #FAC76A;
+}
+
+.btn:active{
+    background-color: #d4a959;
+    border-color: #d4a959;
+}
+
+.cnt1 {
+    max-width: 1000px;
+    height: 50vh;
+    border: 1.5px solid #FAC76A;
+    background: linear-gradient(to bottom, rgba(18, 22, 33, 1), rgba(27, 33, 49, 1));
+    background-color: #1B2131;
+    background-size: cover;
+}
+
+.cnt2{
+    max-width: 1200px;
+}
+
+.gods{
+    height: 8vh;
+}
+
+.cardImg{
+    object-fit: cover;
+    height: 300px;
+    object-position: top;
+}
+
+.card{
+    width: 17em;
+    border-radius: 5px;
+    border-color: #FAC76A;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card-body {
+    background-color: #121621;
+}
+
+.card-body:hover{
+    background-color: #FAC76A;
+    cursor: pointer;
+}
+
+.card-body:active{
+    background-color: #d4a959;
+}
+
+.cardBtn{
+    width: 100%;
+}
+
+.godClass{
+    max-width: 1200px;
+}
+
+.imgGod{
+    width: 50px;
+    object-fit: cover;
+}
+
+.footer{
+    height: 300px;
+    background-color: #121621;
+}
