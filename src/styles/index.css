@@ -1,15 +1,3 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-
 body{
     background-color: #121621;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,6 +15,27 @@ body{
     max-width: 500px;
 }
 
+.nav-item-custom, .dropdown-toggle {
+    color: white;
+}
+
+.nav-item-custom:hover, .dropdown-toggle:hover{
+    color: #FAC76A !important; /* Color al pasar el mouse */
+}
+
+.nav-item-custom:active, .dropdown-toggle:active {
+    color: #d4a959 !important; /* Color cuando se hace click */
+}
+
+.dropdown-menu{
+    background-color: #FAC76A;
+}
+
+.dropdown-item:hover{
+    background-color: #d4a959;
+    color:white;
+}
+
 .linkers{
     gap: 50px;
 }
@@ -41,9 +50,13 @@ body{
     border-color: #FAC76A;
 }
 
-.btn:active{
-    background-color: #d4a959;
-    border-color: #d4a959;
+.btn:active {
+    background-color: #d4a959 !important;
+    border-color: #d4a959 !important;
+}
+
+#search{
+    max-width: 900px;
 }
 
 .cnt1 {
@@ -108,7 +121,7 @@ body{
     object-fit: cover;
 }
 
-.footer{
-    height: 300px;
+.custom-footer{
+    height: 200px;
     background-color: #121621;
 }
